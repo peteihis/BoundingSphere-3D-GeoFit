@@ -1,4 +1,4 @@
-# GeoFit-3D-BoundingSphere
+# BoundingSphere-3D-GeoFit
 
 A method to define a bounding sphere in 3D-space by geometrical rules.
 
