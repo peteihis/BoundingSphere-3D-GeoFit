@@ -2,7 +2,7 @@
 
 A method to define a bounding sphere in 3D-space by geometrical rules. The method produces perfect fit with 2 to 4 support points, within obtainable numerical accuracy. 
 
-The medod always does a minimum of four passes through the data.
+The method always does a minimum of four passes through the data.
 1. Finds the AABB-center
 2. Finds the most distant point from the AABB center. If sveral points are at equal distance, the first one found will be used.
 3. Finds the most distant point from the previous point.
