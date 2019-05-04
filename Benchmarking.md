@@ -1,6 +1,6 @@
 # Bencmarging GeoFit
 
-For benchmarking I coded a couple of aditional things into the the package:
+For benchmarking I coded a couple of additional things into the the package:
 - The Ritter's algorithm as a Java class of it's own
 - An AABB-center based method called `fastSphere()` in the `GeoFit`-class 
 
