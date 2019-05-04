@@ -16,11 +16,9 @@ The `GeoFit.fastSphere()` method is actually the two first passes of the `GeoFit
     <th></th>
     <th colspan = 4>8-point cube</th>
     <th colspan = 4>Teapot</th>
-    <th colspan = 4>Bunny</th>
   </tr>
   <tr>
-    <th>Code</th>
-    <th>time</th><th>Pass</th><th>Supp</th><th>Radius</th>
+    <th>Algorithm</th>
     <th>time</th><th>Pass</th><th>Supp</th><th>Radius</th>
     <th>time</th><th>Pass</th><th>Supp</th><th>Radius</th>
   </tr>
@@ -28,11 +26,9 @@ The `GeoFit.fastSphere()` method is actually the two first passes of the `GeoFit
     <td>GeoFit</td>
     <td><small>0.4333</small></td><td>4</td><td>2</td><td>2.567</td>
     <td><small>0.4333</small></td><td>4</td><td>2</td><td>2.567</td>
-    <td><small>0.4333</small></td><td>4</td><td>2</td><td>2.567</td>
   </tr>
   <tr>
     <td>AABB</td>
-    <td>0.4333</td><td>4</td><td>2</td><td>2.567</td>
     <td>0.4333</td><td>4</td><td>2</td><td>2.567</td>
     <td>0.4333</td><td>4</td><td>2</td><td>2.567</td>
   </tr>
@@ -40,11 +36,42 @@ The `GeoFit.fastSphere()` method is actually the two first passes of the `GeoFit
     <td>Ritter F</td>
     <td>0.4333</td><td>4</td><td>2</td><td>2.567</td>
     <td>0.4333</td><td>4</td><td>2</td><td>2.567</td>
+  </tr>
+  <tr>
+    <td>Ritter L</td>
+    <td>0.4333</td><td>4</td><td>2</td><td>2.567</td>
+    <td>0.4333</td><td>4</td><td>2</td><td>2.567</td>
+  </tr>
+</table>
+<table>
+  <tr>
+    <th></th>
+    <th colspan = 4>Bunny</th>
+    <th colspan = 4>Horse</th>
+  </tr>
+  <tr>
+    <th>Algorithm</th>
+    <th>time</th><th>Pass</th><th>Supp</th><th>Radius</th>
+    <th>time</th><th>Pass</th><th>Supp</th><th>Radius</th>
+  </tr>
+  <tr>
+    <td>GeoFit</td>
+    <td><small>0.4333</small></td><td>4</td><td>2</td><td>2.567</td>
+    <td><small>0.4333</small></td><td>4</td><td>2</td><td>2.567</td>
+  </tr>
+  <tr>
+    <td>AABB</td>
+    <td>0.4333</td><td>4</td><td>2</td><td>2.567</td>
+    <td>0.4333</td><td>4</td><td>2</td><td>2.567</td>
+  </tr>
+  <tr>
+    <td>Ritter F</td>
+    <td>0.4333</td><td>4</td><td>2</td><td>2.567</td>
     <td>0.4333</td><td>4</td><td>2</td><td>2.567</td>
   </tr>
   <tr>
     <td>Ritter L</td>
     <td>0.4333</td><td>4</td><td>2</td><td>2.567</td>
     <td>0.4333</td><td>4</td><td>2</td><td>2.567</td>
-    <td>0.4333</td><td>4</td><td>2</td><td>2.567</td>
-  </tr></table>
+  </tr>
+</table>
