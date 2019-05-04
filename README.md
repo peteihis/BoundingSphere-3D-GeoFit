@@ -32,7 +32,7 @@ The version 0.02 was updated to the forum on the 4th of May 2019. This version c
 
 With the package comes an implementation of Ritter's algorithm that is adapted to work with vectors rather than indicvidual x-, y- and z-coordinates like the GeoFit does. This is just handy though Ritter's method does not use the most powerful vector tools like dot- or cross-products.
 
-## Testing and bench marking.
+## Testing and bench marking
 
 On the way.... I hope. :)
 
