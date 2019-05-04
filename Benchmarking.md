@@ -10,6 +10,6 @@ The implementation of Ritter's algorithm has two modes, that affect the behavior
 
 The `GeoFit.fastSphere()` method is actually the two first passes of the `GeoFit.boundingSphere()` procedure. It produces a non-minimal enclosing sphere. Sometimes it may produce a perfect fit but the algrothm does not check that.
 
-## Test sases
+## Test cases
 
 ... on the way....
