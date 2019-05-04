@@ -1,0 +1,57 @@
+<?xml version="1.0"?>
+
+<project name="BoundingSphere" default="dist" basedir=".">
+
+	<property name="package" value="${ant.project.name}" /> 
+	<property name="aoijar" value="../ArtOfIllusion.jar" />
+	<property name="author" value="Petri Ihalainen" />
+	<property name="src" value="./src" />
+	<property name="build" value="./build" />
+	<property name="docs" value="./docs" />
+	<property name="dist" value="../Plugins" />
+
+	<target name="init">
+		<tstamp/>
+		<mkdir dir="${build}" />
+		<mkdir dir="${dist}" />
+		<mkdir dir="${docs}" />
+	</target>
+
+	<target name="dist" depends="clean,compile">
+		<!-- create the jar file -->
+		<jar jarfile="${dist}/${package}.jar" basedir="${build}" >
+			<fileset dir="${src}" includes="extensions.xml" />
+		</jar>
+	</target>
+
+	<target name="compile" depends="init">
+		<javac srcdir="${src}" destdir="${build}" classpath="${aoijar}"
+		debug="on" target="1.6" source="1.6" includeantruntime="false" >
+		<compilerarg value="-Xlint:unchecked"/>
+		</javac> 
+	</target>
+
+	<target name="docs" depends="init">
+		<javadoc packagenames="artofillusion.*"
+			sourcepath="${src}"
+			defaultexcludes="yes"
+			destdir="${docs}"
+			author="true"
+			version="true"
+			use="true"
+			source="0.0.1"
+			windowtitle="${package}"
+			public="true">
+			<doctitle><![CDATA[<h1>${package}</h1>]]></doctitle>
+			<bottom><![CDATA[<i>Copyright &#169; 2019 by ${author}.</i>]]></bottom>
+		</javadoc>
+	</target>
+
+	<target name="clean">
+		<!-- Delete the ${build} and ${docs} directory trees -->
+		<delete dir="${build}" />
+		<delete dir="${docs}" /> 
+		<!--delete file="${dist}/${package}.jar" /-->
+	</target>
+
+</project>
