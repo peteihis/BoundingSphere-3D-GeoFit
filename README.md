@@ -4,7 +4,7 @@ An algorithm to define a bounding sphere in 3D-space by geometrical rules. The a
 
 Currently the main algoritm is coded in the `GeoFit.boundigSphere()`-method. The GeoFit-class also provides secondary method `fastSphere()`, which is a simple two pass method, that produces a non-minimal enclosing sphere. 
 
-The origins of this algorithm are in Art of Illusion development environment. The full Aoai plugin set can be found in the ArtOfIllusion folder. The generic version contains a core set, that may be more suitable for further editing/adapting. The set requires a math package with 3D-Vectors for the algorithm to work.
+The origins of this algorithm are in Art of Illusion development environment. The full AoI-plugin set can be found in the ArtOfIllusion folder. The generic version contains a core set, that may be more suitable for further editing/adapting. The set requires a math package with 3D-Vectors for the algorithm to work.
 
 ## How it works
 
@@ -28,7 +28,7 @@ During the passes the algorithm only uses the squared distance between the last 
 
 ## Development
 
-The first version (0.01 still named GeoFinder) of the code got finalised the 20th of April 2019 and was posted to SourceForge https://sourceforge.net/p/aoi/discussion/47782/thread/59419e028f/ as a plugin provided class to Art of Illusion 3D-modeling software, along with a script to test it.
+The first version (0.01 still named GeoFinder) of the code got finalised the 20th of April 2019 and was posted to SourceForge https://sourceforge.net/p/aoi/discussion/47782/thread/59419e028f/ for testing as a plugin to Art of Illusion, along with a script to test it.
 
 The AoI version of the algorithm uses the `Vec3` and `Mat4` classes of `artofillusion.math` package. `Mat4` is needed if the objecs are placed as instances in the model space. Point positions are given as `Vec3(x,y,z)` and vector functions are used on calculations. Of course the code can easily be adapted to use any available vector and matrix packages, that have the required mathods available.
 
@@ -41,4 +41,4 @@ The version **0.02 for Art of Illusion** was updated to the forum on the 4th of 
 
 ## Future plans
 
-I'm planning on doing some bechmarking next. Now the core part sof the code hve been separated to a generic release. Hopefully one day there will be a stand-alone .jar to demo it. :)
+I'm planning on doing some bechmarking next. Hopefully, one day, there will be a stand-alone .jar to demo it. :)
