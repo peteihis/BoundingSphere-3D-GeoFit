@@ -4,7 +4,7 @@ An algorithm to define a bounding sphere in 3D-space by geometrical rules. The a
 
 Currently the main algoritm is coded in the `GeoFit.boundigSphere()`-method. The GeoFit-class also provides secondary method `fastSphere()`, which is a simple two pass method, that produces a non-minimal enclosing sphere. 
 
-The full set can be found in the ArtOfIllusion folder. The generic veriosn containd a core set, that may be helful for furteh editing.
+The origins of this algorithm are in Art of Illusion development environment. The full Aoai plugin set can be found in the ArtOfIllusion folder. The generic version contains a core set, that may be more suitable for further editing/adapting. The set requires a math package with 3D-Vectors for the algorithm to work.
 
 ## How it works
 
@@ -42,5 +42,3 @@ The version **0.02 for Art of Illusion** was updated to the forum on the 4th of 
 ## Future plans
 
 I'm planning on doing some bechmarking next. Now the core part sof the code hve been separated to a generic release. Hopefully one day there will be a stand-alone .jar to demo it. :)
-
-
