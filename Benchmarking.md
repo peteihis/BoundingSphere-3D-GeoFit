@@ -18,27 +18,32 @@ The `GeoFit.fastSphere()` method is actually the two first passes of the `GeoFit
     <th colspan = 4>Teapot</th>
   </tr>
   <tr>
+    <th>Img</th>
+    <td colspan = 4>img</td>
+    <td colspan = 4>img</td>
+  </tr>
+  <tr>
     <th>Algorithm</th>
-    <th>time</th><th>Pass</th><th>Supp</th><th>Radius</th>
-    <th>time</th><th>Pass</th><th>Supp</th><th>Radius</th>
+    <th>Time</th><th>Pass</th><th>Supp</th><th>Radius</th>
+    <th>Time</th><th>Pass</th><th>Supp</th><th>Radius</th>
   </tr>
   <tr>
-    <td>GeoFit</td>
-    <td><small>0.4333</small></td><td>4</td><td>2</td><td>2.567</td>
-    <td><small>0.4333</small></td><td>4</td><td>2</td><td>2.567</td>
-  </tr>
-  <tr>
-    <td>AABB</td>
+    <th>GeoFit</th>
     <td>0.4333</td><td>4</td><td>2</td><td>2.567</td>
     <td>0.4333</td><td>4</td><td>2</td><td>2.567</td>
   </tr>
   <tr>
-    <td>Ritter F</td>
+    <th>AABB</th>
     <td>0.4333</td><td>4</td><td>2</td><td>2.567</td>
     <td>0.4333</td><td>4</td><td>2</td><td>2.567</td>
   </tr>
   <tr>
-    <td>Ritter L</td>
+    <th>Ritter F</th>
+    <td>0.4333</td><td>4</td><td>2</td><td>2.567</td>
+    <td>0.4333</td><td>4</td><td>2</td><td>2.567</td>
+  </tr>
+  <tr>
+    <th>Ritter L</th>
     <td>0.4333</td><td>4</td><td>2</td><td>2.567</td>
     <td>0.4333</td><td>4</td><td>2</td><td>2.567</td>
   </tr>
@@ -50,27 +55,32 @@ The `GeoFit.fastSphere()` method is actually the two first passes of the `GeoFit
     <th colspan = 4>Horse</th>
   </tr>
   <tr>
+    <th>Img</th>
+    <td colspan = 4>img</td>
+    <td colspan = 4>img</td>
+  </tr>
+  <tr>
     <th>Algorithm</th>
-    <th>time</th><th>Pass</th><th>Supp</th><th>Radius</th>
-    <th>time</th><th>Pass</th><th>Supp</th><th>Radius</th>
+    <th>Time</th><th>Pass</th><th>Supp</th><th>Radius</th>
+    <th>Time</th><th>Pass</th><th>Supp</th><th>Radius</th>
   </tr>
   <tr>
-    <td>GeoFit</td>
-    <td><small>0.4333</small></td><td>4</td><td>2</td><td>2.567</td>
-    <td><small>0.4333</small></td><td>4</td><td>2</td><td>2.567</td>
-  </tr>
-  <tr>
-    <td>AABB</td>
+    <th>GeoFit</th>
     <td>0.4333</td><td>4</td><td>2</td><td>2.567</td>
     <td>0.4333</td><td>4</td><td>2</td><td>2.567</td>
   </tr>
   <tr>
-    <td>Ritter F</td>
+    <th>AABB</th>
     <td>0.4333</td><td>4</td><td>2</td><td>2.567</td>
     <td>0.4333</td><td>4</td><td>2</td><td>2.567</td>
   </tr>
   <tr>
-    <td>Ritter L</td>
+    <th>Ritter F</th>
+    <td>0.4333</td><td>4</td><td>2</td><td>2.567</td>
+    <td>0.4333</td><td>4</td><td>2</td><td>2.567</td>
+  </tr>
+  <tr>
+    <th>Ritter L</thd>
     <td>0.4333</td><td>4</td><td>2</td><td>2.567</td>
     <td>0.4333</td><td>4</td><td>2</td><td>2.567</td>
   </tr>
