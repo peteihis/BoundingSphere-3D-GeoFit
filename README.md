@@ -39,6 +39,6 @@ The version **0.02 for Art of Illusion** was updated to the forum on the 4th of 
 
 ## Future plans
 
-I'm planning on doing some bechmarking. Also I'm thinking about separating the core of the algorithm into a more generic release, that might be easier to copy and modify. Hopefully one day there will be a stand-alone .jar to demo it. :)
+I'm planning on doing some bechmarking next. Now the core part sof the code hve been separated to a generic release. Hopefully one day there will be a stand-alone .jar to demo it. :)
 
 
