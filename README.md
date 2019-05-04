@@ -32,18 +32,13 @@ The original version of the algorithm uses the `Vec3` and `Mat4` classes of `art
 
 ## Current status
 
-The version 0.02 was updated to the forum on the 4th of May 2019. This version comes with methods to fit a sphere on 
-- a set of 3D points
-- an object that has vertex pased visualizato mesh available
-- a selestion of obects like above
-
-For basic bench marking the package comes an implementation of Ritter's algorithm. The implementaion is adapted to work with vectors rather than individual x-, y- and z-coordinates. This is just handy though Ritter's method does not necessarily benefit from that as it does not use the typical vector tools like dot- or cross-products.
-
-## Testing and bench marking
-
-On the way.... Slow, but still.
+The version **0.02 for Art of Illusion** was updated to the forum on the 4th of May 2019. This version comes with methods to fit a sphere on 
+- a set of 3D points as `Vec3[]`
+- an object that is placed in a scene
+- a selection of objects in a scene
 
 ## Future plans
 
-I'm planning on separating the core of the algorithm into a more generic (less Art of Illusion dependent) single method class that might be easier to copy and modify. Hopefully one day there will be a stand alone .jar to demo it. :)
+I'm planning on doing some bechmarking. Also I might separate the core of the algorithm into a more generic (less Art of Illusion dependent) single method class, that might be easier to copy and modify. Hopefully one day there will be a stand-alone .jar to demo it. :)
+
 
