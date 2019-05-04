@@ -26,9 +26,9 @@ During the passes the algorithm only uses the squared distance between the last 
 
 ## Development
 
-The first version (0.01 still named GeoFinder) of the code got finalised the 20th of April and was posted to SourceForge https://sourceforge.net/p/aoi/discussion/47782/thread/59419e028f/ as a plugin provided class to Art of Illusion 3D-modeling software, along with a script to test it.
+The first version (0.01 still named GeoFinder) of the code got finalised the 20th of April 2019 and was posted to SourceForge https://sourceforge.net/p/aoi/discussion/47782/thread/59419e028f/ as a plugin provided class to Art of Illusion 3D-modeling software, along with a script to test it.
 
-The original version of the algorithm uses the `Vec3` and `Mat4` classes of `artofillusion.math` package. `Mat4` is needed if the objecs are placed as instances in the model space. Point positions are given as `Vec3(x,y,z)` and vector functions are used on calculations. Of course the code can easily be adapted to use any available vector and matrix packages, that have the required mathods available.
+The AoI version of the algorithm uses the `Vec3` and `Mat4` classes of `artofillusion.math` package. `Mat4` is needed if the objecs are placed as instances in the model space. Point positions are given as `Vec3(x,y,z)` and vector functions are used on calculations. Of course the code can easily be adapted to use any available vector and matrix packages, that have the required mathods available.
 
 ## Current status
 
@@ -39,6 +39,6 @@ The version **0.02 for Art of Illusion** was updated to the forum on the 4th of 
 
 ## Future plans
 
-I'm planning on doing some bechmarking. Also I might separate the core of the algorithm into a more generic (less Art of Illusion dependent) single method class, that might be easier to copy and modify. Hopefully one day there will be a stand-alone .jar to demo it. :)
+I'm planning on doing some bechmarking. Also I'm thinking about separating the core of the algorithm into a more generic release, that might be easier to copy and modify. Hopefully one day there will be a stand-alone .jar to demo it. :)
 
 
