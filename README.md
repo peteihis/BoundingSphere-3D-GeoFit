@@ -2,7 +2,7 @@
 
 An algorithm to define a bounding sphere in 3D-space by geometrical rules. The algorithm produces perfect fit with 2 to 4 support points, within obtainable numerical accuracy.
 
-Currently the main algoritm is coded in the `GeoFit.boundigSphere()`-method. The GeoFit-class also provides secondary method `fastSphere()`, which is a simple two pass method, that produces a non-minimal enclosing sphere.
+Currently the main algoritm is coded in the `GeoFit.boundigSphere()`-method. The GeoFit-class also provides secondary method `fastSphere()`, which is a simple two pass method, that produces a non-minimal enclosing sphere. The full set can be found in the ArtOfIllusion folder.
 
 ## How it works
 
