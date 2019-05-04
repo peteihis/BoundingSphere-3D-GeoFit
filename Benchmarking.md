@@ -11,7 +11,6 @@ The implementation of Ritter's algorithm has two modes, that affect the behavior
 The `GeoFit.fastSphere()` method is actually the two first passes of the `GeoFit.boundingSphere()` procedure. It produces a non-minimal enclosing sphere. Sometimes it may produce a perfect fit but the algrothm does not check that.
 
 ## Cases
-
 <table>
   <tr>
     <th></th>
@@ -20,10 +19,10 @@ The `GeoFit.fastSphere()` method is actually the two first passes of the `GeoFit
     <th colspan = 4>Bunny</th>
   </tr>
   <tr>
-    <th>Algorithm</th>
-    <th>time</th><th>Pass</th><th>supp</th><th>radius</th>
-    <th>time</th><th>pass</th><th>supp</th><th>radius</th>
-    <th>time</th><th>pass</th><th>supp</th><th>radius</th>
+    <th>Code</th>
+    <th>time</th><th>Pass</th><th>Supp</th><th>Radius</th>
+    <th>time</th><th>Pass</th><th>Supp</th><th>Radius</th>
+    <th>time</th><th>Pass</th><th>Supp</th><th>Radius</th>
   </tr>
   <tr>
     <td>GeoFit</td>
