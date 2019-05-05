@@ -21,32 +21,35 @@ The `GeoFit.fastSphere()` method is actually the two first passes of the `GeoFit
     <td colspan = 4><img src = "Images/Lucy-Angel.png", width=300></td>
   </tr>
   <tr>
-    <td>Vertices</th>
-    <td colspan = 4>224445</td>
+    <th align = left>Vertices</th>
+    <td colspan = 4, align = center>224 445</td>
   </tr>
   <tr>
-    <td>Box dimensions</th>
-    <td colspan = 4>2.949 x 8.546 x 4.629</td>
+    <th align = left>Box dimensions</th>
+    <td colspan = 4, align = center>2.949 x 8.546 x 4.629</td>
   </tr>
 
   <tr>
-    <th>Algorithm</th>
-    <th>Time</th><th>Passes</th><th>Supports</th><th>Radius</th>
+    <th align = left>Algorithm</th><th>Time ms</th><th>Passes</th><th>Supports</th><th>Radius</th>
   </tr>
   <tr>
     <td>GeoFit</th>
-    <td>14.066</td><td>6</td><td>4</td><td>4.670</td>
+    <td>14.066</td><td align = center>6</td><td align = center>4</td><td>4.670</td>
   </tr>
   <tr>
     <td>AABB</td>
-    <td>5.806</td><td>2</td><td></td><td>4.918</td>
+    <td>5.806</td><td align = center>2</td><td></td><td>4.918</td>
   </tr>
   <tr>
     <td>Ritter F</td>
-    <td>5.114</td><td>2</td><td></td><td>5.086</td>
+    <td>5.114</td><td align = center>2</td><td></td><td>5.086</td>
   </tr>
   <tr>
     <td>Ritter L</td>
-    <td>4.864</td><td>2</td><td></td><td>5.086</td>
+    <td>4.864</td><td align = center>2</td><td></td><td>5.086</td>
   </tr>
 </table>
+
+## References
+
+Lucy-Angel: https://free3d.com/3d-model/angel-lucy-sculpture-46454.html
