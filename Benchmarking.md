@@ -18,35 +18,35 @@ The `GeoFit.fastSphere()` method is actually the two first passes of the `GeoFit
   </tr>
   <tr>
     <th></th>
-    <td colspan = 4><img src 0 ../Images/LucyAngel.png width = 100></td>
+    <td colspan = 4><img src = "../Images/Lucy-Angel.png", width=150></td>
   </tr>
   <tr>
     <td>Vertices</th>
     <td colspan = 4>224445</td>
   </tr>
   <tr>
-    <td>Box</th>
+    <td>Box dimensions</th>
     <td colspan = 4>2.949 x 8.546 x 4.629</td>
   </tr>
 
   <tr>
     <th>Algorithm</th>
-    <th>Time</th><th>Pass</th><th>Supp</th><th>Radius</th>
+    <th>Time</th><th>Passes</th><th>Supports</th><th>Radius</th>
   </tr>
   <tr>
-    <th>GeoFit</th>
+    <td>GeoFit</th>
     <td>14.066</td><td>6</td><td>4</td><td>4.670</td>
   </tr>
   <tr>
-    <th>AABB</th>
+    <td>AABB</td>
     <td>5.806</td><td>2</td><td></td><td>4.918</td>
   </tr>
   <tr>
-    <th>Ritter F</th>
+    <td>Ritter F</td>
     <td>5.114</td><td>2</td><td></td><td>5.086</td>
   </tr>
   <tr>
-    <th>Ritter L</th>
-    <td>4.864</td><td>4</td><td></td><td>5.086</td>
+    <td>Ritter L</td>
+    <td>4.864</td><td>2</td><td></td><td>5.086</td>
   </tr>
 </table>
