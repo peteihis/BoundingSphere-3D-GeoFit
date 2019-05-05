@@ -10,6 +10,8 @@ The implementation of Ritter's algorithm has two modes, that affect the behavior
 
 The `GeoFit.fastSphere()` method is actually the two first passes of the `GeoFit.boundingSphere()` procedure. It produces a non-minimal enclosing sphere. Sometimes it may produce a perfect fit but the algrothm does not check that.
 
+The processing times reported below are the actual solver times. Invoking the tool, preparing the data and constructing the BoundingSphere-object are not included. The times are averages of several repetitions but still only represent a somewhat typical result. Relative variation of time consumption is huge especially in faster cases.
+
 ## Cases
 <table>
   <tr>
