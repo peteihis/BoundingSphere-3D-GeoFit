@@ -34,10 +34,12 @@ The AoI version of the algorithm uses the `Vec3` and `Mat4` classes of `artofill
 
 ## Current status
 
-The version **0.02 for Art of Illusion** was updated to the forum on the 4th of May 2019. This version comes with methods to fit a sphere on 
+The version **0.03 for Art of Illusion** was updated both to the forum and to GitHub on the 5th of May 2019. This version comes with methods to fit a sphere on 
 - a set of 3D points as `Vec3[]`
 - an object that is placed in a scene
 - a selection of objects in a scene
+
+and the BoundingSphere methods `collides`, `contacts`, `contains`... have been revised and finalized.
 
 ## Future plans
 
