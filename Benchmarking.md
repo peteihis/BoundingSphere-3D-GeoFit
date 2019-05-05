@@ -17,6 +17,7 @@ The processing times reported below are the actual solver times. Invoking the to
   <tr>
     <th></th>
     <th colspan = 4>Lucy-Angel</th>
+    <th colspan = 4>Cube</th>
   </tr>
   <tr>
     <th></th>
@@ -26,7 +27,7 @@ The processing times reported below are the actual solver times. Invoking the to
   <tr>
     <th align = left>Vertices</th>
     <td colspan = 4, align = center>224 445</td>
-   <td colspan = 4, align = center>8</td>
+    <td colspan = 4, align = center>8</td>
   </tr>
   <tr>
     <th align = left>Box dimensions</th>
@@ -37,7 +38,7 @@ The processing times reported below are the actual solver times. Invoking the to
   <tr>
     <th align = left>Algorithm</th>
     <th>Time ms</th><th>Passes</th><th>Supports</th><th>Radius</th>
-    <th>Time &mus</th><th>Passes</th><th>Supports</th><th>Radius</th>
+    <th>Time &#x03BCs</th><th>Passes</th><th>Supports</th><th>Radius</th>
   </tr>
   <tr>
     <td>GeoFit</th>
