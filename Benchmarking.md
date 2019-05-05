@@ -21,34 +21,43 @@ The processing times reported below are the actual solver times. Invoking the to
   <tr>
     <th></th>
     <td colspan = 4><img src = "Images/Lucy-Angel.png", width=300></td>
+    <td colspan = 4><img src = "Images/Cube.png", width=300></td>
   </tr>
   <tr>
     <th align = left>Vertices</th>
     <td colspan = 4, align = center>224 445</td>
+   <td colspan = 4, align = center>8</td>
   </tr>
   <tr>
     <th align = left>Box dimensions</th>
     <td colspan = 4, align = center>2.949 x 8.546 x 4.629</td>
+   <td colspan = 4, align = center>2.000 x 2.000 x 2.000</td>
   </tr>
 
   <tr>
-    <th align = left>Algorithm</th><th>Time ms</th><th>Passes</th><th>Supports</th><th>Radius</th>
+    <th align = left>Algorithm</th>
+    <th>Time ms</th><th>Passes</th><th>Supports</th><th>Radius</th>
+    <th>Time &mus</th><th>Passes</th><th>Supports</th><th>Radius</th>
   </tr>
   <tr>
     <td>GeoFit</th>
     <td>14.066</td><td align = center>6</td><td align = center>4</td><td>4.670</td>
+    <td>0.211</td><td align = center>4</td><td align = center>2</td><td>1.732</td>
   </tr>
   <tr>
     <td>AABB</td>
     <td>5.806</td><td align = center>2</td><td></td><td>4.918</td>
+    <td>0.122</td><td align = center>2</td><td></td><td>1.732</td>
   </tr>
   <tr>
     <td>Ritter F</td>
     <td>5.114</td><td align = center>2</td><td></td><td>5.086</td>
+    <td>0.197</td><td align = center>2</td><td></td><td>2.341</td>
   </tr>
   <tr>
     <td>Ritter L</td>
     <td>4.864</td><td align = center>2</td><td></td><td>5.086</td>
+    <td>0.157</td><td align = center>2</td><td></td><td>2.154</td>
   </tr>
 </table>
 
