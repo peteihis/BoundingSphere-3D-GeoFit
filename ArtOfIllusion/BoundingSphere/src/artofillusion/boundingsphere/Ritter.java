@@ -1,5 +1,9 @@
-/*  Copyright (C) 2019 by Petri Ihalainen */
-/*  License: GPLv3                        */
+/*
+    Copyright (C) 2019 by Petri Ihalainen
+    License: GPLv3
+    Disclaimer: The author will not take resposibility of any consequences
+    of using, modifying, handling or redistributing this software.
+*/
 
 package artofillusion.boundingsphere;
 

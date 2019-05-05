@@ -1,5 +1,9 @@
-/*  Copyright (C) 2019 by Petri Ihalainen */
-/*  License: GPLv3                        */
+/*
+    Copyright (C) 2019 by Petri Ihalainen
+    License: GPLv3
+    Disclaimer: The author will not take resposibility of any consequences
+    of using, modifying, handling or redistributing this software.
+*/
 
 package artofillusion.boundingsphere;
 
@@ -14,7 +18,7 @@ import java.util.ArrayList;
 	
 	@author Petri Ihalainen
 	@author (peteihis)
-	@version 0.02, May-04-2019, for Art of Illusion
+	@version 0.03, May-05-2019, for Art of Illusion
 */
 
 public class BoundingSphere
@@ -118,13 +122,14 @@ public class BoundingSphere
 	}
 
 	/**
-		Check if another BoundingSphere is partially or entirely inside this BoundingSphere.
+		Check if another BoundingSphere is partially inside this BoundingSphere.
 		Surface-to-surface distance 0.0 is not considered a collision.
 	*/
 	
 	public boolean collides(BoundingSphere sphere)
 	{
-		return (center.distance(sphere.center) < radius + sphere.radius);
+		return (center.distance(sphere.center) < radius + sphere.radius && 
+		        Math.min(radius, sphere.radius)+center.distance(sphere.center) >  Math.max(radius, sphere.radius));
 	}
 
 	/**
@@ -135,11 +140,16 @@ public class BoundingSphere
 	{
 		double centerToCenter = center.distance(sphere.center);
 		double sumOfRadii  = radius + sphere.radius;
-		return (centerToCenter > sumOfRadii - tolerance && centerToCenter < sumOfRadii + tolerance);
+		if (sumOfRadii <= centerToCenter-tolerance)
+			return (centerToCenter >= sumOfRadii - tolerance && centerToCenter <= sumOfRadii + tolerance);
+		if (centerToCenter + Math.min(radius, sphere.radius) <= Math.max(radius, sphere.radius)+tolerance)
+			return (centerToCenter + Math.min(radius, sphere.radius) <= Math.max(radius, sphere.radius)+tolerance && 
+			        centerToCenter + Math.min(radius, sphere.radius) >= Math.max(radius, sphere.radius)-tolerance);
+		return false;
 	}
 
 	/**
-		Check another BoundingSphere is entirely inside this BoundingSphere. Surfaces may still be in contact.
+		Check if another BoundingSphere is entirely inside this BoundingSphere. Surfaces may still be in contact.
 	*/
 	
 	public boolean contains(BoundingSphere sphere)
@@ -148,7 +158,7 @@ public class BoundingSphere
 	}
 	
 	/**
-		The direction in which direction the other BoundingSphere is.
+		The direction in which the other BoundingSphere is.
 	*/
 	
 	public Vec3 direction(BoundingSphere sphere)
@@ -167,7 +177,11 @@ public class BoundingSphere
 	{
 		double centerToCenter = center.distance(sphere.center);
 		double sumOfRadii  = radius + sphere.radius;
-		return centerToCenter - sumOfRadii;
+		if (sumOfRadii < centerToCenter)
+			return centerToCenter - sumOfRadii;
+		if (centerToCenter + Math.min(radius, sphere.radius) < Math.max(radius, sphere.radius))
+			return centerToCenter+Math.min(radius, sphere.radius)-Math.max(radius, sphere.radius);
+		return 0.0;
 	}
 	
 	/** Get a verbal description of the BoundingSphere */

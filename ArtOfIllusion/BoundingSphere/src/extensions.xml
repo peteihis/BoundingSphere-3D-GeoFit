@@ -1,7 +1,7 @@
 <?xml version="1.0" standalone="yes"?>
-<extension name="BoundingSphere" version="0.02">
+<extension name="BoundingSphere" version="0.03">
   <author>Petri Ihalainen</author>
-  <date>May-04-2019</date>
+  <date>May-05-2019</date>
   <description>
   </description>
   <comments>

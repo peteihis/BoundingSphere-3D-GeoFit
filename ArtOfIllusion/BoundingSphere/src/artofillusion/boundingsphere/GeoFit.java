@@ -1,5 +1,9 @@
-/*  Copyright (C) 2019 by Petri Ihalainen */
-/*  License: GPLv3                        */
+/*
+    Copyright (C) 2019 by Petri Ihalainen
+    License: GPLv3
+    Disclaimer: The author will not take resposibility of any consequences
+    of using, modifying, handling or redistributing this software.
+*/
 
 package artofillusion.boundingsphere;
 
@@ -54,7 +58,7 @@ public class GeoFit
 		return bou;
 	}
 
-	/** Calculate a bounding sphere for an object on in a scene. 
+	/** Calculate a bounding sphere for an object in a scene. 
 	    If no preview mesh is available the bounding box is used.*/
 
 	public BoundingSphere boundingSphere(ObjectInfo info)
