@@ -1,4 +1,4 @@
-# Bencmarging GeoFit
+# Benchmarking GeoFit
 
 For benchmarking I coded a couple of aditional things into the the package:
 - The Ritter's algorithm as a Java class of it's own
