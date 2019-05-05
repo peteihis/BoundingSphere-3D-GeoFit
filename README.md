@@ -1,6 +1,6 @@
 # BoundingSphere-3D-GeoFit
 
-An algorithm to define a bounding sphere in 3D-space by geometrical rules. The algorithm produces perfect fit with 2 to 4 support points, within obtainable numerical accuracy.
+An algorithm to define a bounding sphere in 3D-space by geometric rules. The algorithm produces perfect fit with 2 to 4 support points, within obtainable numerical accuracy.
 
 Currently the main algoritm is coded in the `GeoFit.boundigSphere()`-method. The GeoFit-class also provides a secondary method `fastSphere()`, which is a simple two pass method, that produces a non-minimal enclosing sphere. 
 
