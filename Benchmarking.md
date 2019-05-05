@@ -18,7 +18,7 @@ The `GeoFit.fastSphere()` method is actually the two first passes of the `GeoFit
   </tr>
   <tr>
     <th></th>
-    <td colspan = 4><img src = "../Images/Lucy-Angel.png", width=150></td>
+    <td colspan = 4><img src = "Images/Lucy-Angel.png", width=300></td>
   </tr>
   <tr>
     <td>Vertices</th>
