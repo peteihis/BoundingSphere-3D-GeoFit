@@ -2,9 +2,9 @@
 
 An algorithm to define a bounding sphere in 3D-space by geometric rules. The algorithm produces perfect fit with 2 to 4 support points, within obtainable numerical accuracy.
 
-Currently the main algoritm is coded in the `GeoFit.boundigSphere()`-method. The GeoFit-class also provides a secondary method `fastSphere()`, which is a simple two pass method, that produces a non-minimal enclosing sphere. 
-
 The origins of this algorithm are in Art of Illusion development environment. The full AoI-plugin set can be found in the ArtOfIllusion folder. The generic version contains a core set, that may be more suitable for further editing/adapting. The set requires a math package with 3D-Vectors for the algorithm to work.
+
+Currently the main algoritm is coded in the `GeoFit.boundigSphere()`-method. The AoI-version of the GeoFit-class also provides a secondary method `fastSphere()`, which is a simple two pass method, that produces a non-minimal enclosing sphere. 
 
 ## How it works
 
@@ -21,7 +21,8 @@ These two points are used to define the 'intial sphere'.
 
 4. Tries to find the most distant point outside that sphere. If none are found, the sphere is ready. 
 
-### The fitting phase
+### The completing phase
+
 If the fourth pass found a point, the algorithm checks if one of the previously found points can be eliminated. If so, the new support set is taken as the "current candidate" and the paramaters are updated. If not, the point is added to the support list, the parameters are updated and a new most distant point is searched for. This procedure is repeated until points are not found outside the sphere. The number of passes is not limited in any way.
 
 During the passes the algorithm only uses the squared distance between the last calculates center point and each data point. The sphere center and the squared radius are updated in an evaluation step after each pass. The final value for the radius of the sphere is calculated as one of the last things in the process.
