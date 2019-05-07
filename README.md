@@ -29,7 +29,7 @@ During the passes the algorithm only uses the squared distance between the last 
 
 ## Development
 
-The first version (0.01 still named GeoFinder) of the code got finalised the 20th of April 2019 and was posted to SourceForge https://sourceforge.net/p/aoi/discussion/47782/thread/59419e028f/ for testing as a plugin to Art of Illusion, along with a script to test it.
+The first version (0.01 still named GeoFinder) of the code got finalised the 20th of April 2019 and was posted to SourceForge https://sourceforge.net/p/aoi/discussion/47782/thread/59419e028f/ the next morning for testing as a plugin to Art of Illusion, along with a script to test it.
 
 The AoI version of the algorithm uses the `Vec3` and `Mat4` classes of `artofillusion.math` package. `Mat4` is needed if the objecs are placed as instances in the model space. Point positions are given as `Vec3(x,y,z)` and vector functions are used on calculations. Of course the code can easily be adapted to use any available vector and matrix packages, that have the required mathods available.
 
