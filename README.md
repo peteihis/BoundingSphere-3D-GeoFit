@@ -25,7 +25,7 @@ These two points are used to define the 'intial sphere'.
 
 If the fourth pass found a point, the algorithm checks if one of the previously found points can be eliminated. If so, the new support set is taken as the "current candidate" and the paramaters are updated. If not, the point is added to the support list, the parameters are updated and a new most distant point is searched for. This procedure is repeated until points are not found outside the sphere. The number of passes is not limited in any way.
 
-During the passes the algorithm only uses the squared distance between the last calculates center point and each data point. The sphere center and the squared radius are updated in an evaluation step after each pass. The final value for the radius of the sphere is calculated as one of the last things in the process.
+During the passes the algorithm only uses the squared distance between the last calculated center point and each data point. The sphere center and the squared radius are updated in an evaluation step after each pass. The final value for the radius of the sphere is calculated as one of the last things in the process.
 
 ## Development
 
