@@ -13,7 +13,7 @@ The algoritm works in two distictive steps: First finding a smallest possible sp
 ### The initializing phase
 
 This phase always does four passes through the data:
-1. Finds the AABB-center
+1. Finds the AABB-center _(AABB = Axis-Aligned Bounding Box)_
 2. Finds the most distant point from the AABB center. If sveral points are at equal distance, the first one found will be used.  
 3. Finds the most distant point from the previous point.
 
